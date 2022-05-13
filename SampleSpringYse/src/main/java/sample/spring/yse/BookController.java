@@ -21,6 +21,11 @@ public class BookController {
 	    return new ModelAndView("book/test");
 	}
 	
+	@RequestMapping(value="/portfolio", method = RequestMethod.GET)
+	public ModelAndView portfolio() {
+	    return new ModelAndView("portfoliopages/index");
+	}
+	
 	@RequestMapping(value="/create", method = RequestMethod.GET)
 	public ModelAndView create() {
 	    return new ModelAndView("book/create");

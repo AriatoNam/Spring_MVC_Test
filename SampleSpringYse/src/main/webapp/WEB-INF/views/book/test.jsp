@@ -38,6 +38,8 @@
     </script>
 </head>
 <body>
+<img src="resources/testbird.png"></img>
+<img src="resources/testimg.jpg"></img>
     <div id="box">
     <ul>
         <li>사전</li>
